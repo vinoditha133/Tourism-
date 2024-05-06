@@ -6,6 +6,7 @@ import { IoLocation } from 'react-icons/io5';
 import { FaPhoneSquare } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { HiMiniHomeModern } from 'react-icons/hi2';
+
 const Register = () => {
 const dataU= useRef(null);
 const dataP= useRef(null);

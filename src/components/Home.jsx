@@ -29,7 +29,7 @@ import { FaPhoneSquare } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { HiMiniHomeModern } from 'react-icons/hi2';
 import Loader from './Loader';
-
+import {Link} from 'react-router-dom';
 const Home = () => {
     // const places=[
     //     {
@@ -380,16 +380,17 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repellat inventor
                     
 {data.map((place,index) => (
    <div key={index}>
-    <div  className="card img-fluid col-lg-3 mb-2"> 
-
+    <div  className="card img-fluid col-md-3 mb-2"> 
+<Link to={`/tours/${place.id}`}>
     <div className='card my-2'>
        <img className="card-img" src={place.photo} width="300" height="200" alt={place.title} />
      <div className="card-img pe-30px text-end">
-         <h2   className="card-title">{place.city}</h2><span></span>
+         <h2 className="card-title">{place.city}</h2><span></span>
        <h5  className="card-text1">{place.title}</h5>
        <span>${place.price}/per person</span><a href="#" className="btn btn-warning rounded">Book Now</a>
        </div>
      </div>
+     </Link>
      </div> 
      </div>
     ))}

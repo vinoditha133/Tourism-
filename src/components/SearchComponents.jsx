@@ -9,7 +9,7 @@ const SearchComponents = () => {
  };
   return (
     <div>
-    <FaSearch  className="searchButton" size="30" variant="" onClick={toggleSearch} />
+    <FaSearch className="searchButton" size="30" variant="" onClick={toggleSearch} />
     {
         expanded && (
             <div className='searchbox rounded-pill'>

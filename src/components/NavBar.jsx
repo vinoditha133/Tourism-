@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import logo from "../assets/images/logo.png"
+import Home from './Home';
+import axios from 'axios'; 
 const NavBar = () => {
   return (
     <div>
@@ -35,6 +37,8 @@ const NavBar = () => {
     </div>
   </div>
 </nav>
+{/* HOME START */}
+
     </div>
   )
 }

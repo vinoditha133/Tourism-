@@ -6,7 +6,7 @@
 .pnp.js
 *.mp4
 hero-video.mp4
-
+.env
 # testing
 /coverage
 

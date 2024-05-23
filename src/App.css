@@ -201,12 +201,13 @@ text-align:justify;
     border: 1px;
    padding:5px;
     border-right: 2px solid #ffae00;
-   
-    
   }
   .color{
     color: hsl(25, 100%, 50%);
   }
-  .btn-rad{
-    
+  .hide{
+    display: none;
+  }
+  .valid{
+    display: block;
   }
